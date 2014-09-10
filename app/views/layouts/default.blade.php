@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="{{ asset('assets/lib/sb-admin/css/bootstrap.css') }}">
+	<link rel="stylesheet" href="{{ asset('assets/lib/lumen/css/bootstrap.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/css/default.css') }}">
 	<title>{{ $title }}</title>
 </head>
