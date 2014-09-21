@@ -2,6 +2,8 @@
 
 return array(
 
+    'title' => 'Laravel 4 Starter',
+
 	/*
 	|--------------------------------------------------------------------------
 	| Application Debug Mode
