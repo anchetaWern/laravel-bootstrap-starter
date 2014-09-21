@@ -36,6 +36,6 @@
 
 
 	<script src="{{ asset('assets/js/jquery.js') }}"></script>
-	<script src="{{ asset('assets/lib/sb-admin/js/bootstrap.js') }}"></script>
+	<script src="{{ asset('assets/lib/lumen/js/bootstrap.js') }}"></script>
 </body>
 </html>
