@@ -8,3 +8,9 @@ The starter site that I use for my Laravel 4 projects.
 - password reminder
 - database backup
 
+###Dependencies
+
+- [Composer](https://getcomposer.org/) - for installing/updating dependencies
+- [Carbon](https://github.com/briannesbitt/Carbon)
+- [Laravel Backup](https://github.com/schickling/laravel-backup)
+
