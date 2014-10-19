@@ -21,10 +21,11 @@ The starter site that I use for my Laravel 4 projects.
 2. `cd` into the project directory then execute `composer install`. This will install all the dependencies
 of the project.
 3. `cd` into the `app` directory and configure `database.php` and `mail.php`.
-4. Add `Schickling\Backup\BackupServiceProvider` to service providers on `app/config/app.php` file.
-5. Execute `php artisan config:publish schickling/backup` to generate the config file for database backups. 
-6. Update database backup config file.
-7. Setup cron job for backing up the database by executing the following commands:
+4. Execute `php artisan migrate` to create the users table and password_reminders table. Input `y` or `yes` if prompted to confirm.
+5. Add `Schickling\Backup\BackupServiceProvider` to service providers on `app/config/app.php` file.
+6. Execute `php artisan config:publish schickling/backup` to generate the config file for database backups. 
+7. Update database backup config file.
+8. Setup cron job for backing up the database by executing the following commands:
 
 ```
 sudo crontab -e
@@ -54,4 +55,16 @@ Once that's done simply replace `your-bucket` with the name of your s3 bucket:
 
 ```
 0 8 * * * /usr/bin/php /home/ubuntu/www/artisan db:backup --upload-s3 your-bucket
+```
+
+9. Run the server.
+
+```
+php artisan serve --port=1111
+```
+
+10. Access from your browser.
+
+```
+http://localhost:1111
 ```
