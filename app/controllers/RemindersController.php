@@ -70,7 +70,7 @@ class RemindersController extends BaseController {
             case Password::INVALID_PASSWORD:
             case Password::INVALID_TOKEN:
             case Password::INVALID_USER:
-                return Redirect::back()->with('error', Lang::get($response));
+                return Redirect::back()->with('message', array('type' => 'danger', 'text' => 'Something went wrong. Please try again.'));
 
             case Password::PASSWORD_RESET:
                 return Redirect::to('/login')->with('message', array('type' => 'success', 'text' => 'Your password was updated! You can now login with your new password.'));
