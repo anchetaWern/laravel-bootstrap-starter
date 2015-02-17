@@ -6,7 +6,7 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"nesbot/carbon": "1.12.0",
-                "schickling/backup": "dev-master"
+        "schickling/backup": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
@@ -16,7 +16,7 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php",
-                        "app/helpers"
+            "app/helpers"
 		]
 	},
 	"scripts": {
