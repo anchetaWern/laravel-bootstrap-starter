@@ -28,6 +28,8 @@ Route::post('/login', 'HomeController@doLogin');
 Route::get('/register', 'HomeController@register');
 Route::post('/register', 'HomeController@doRegister');
 
+Route::post('/register/check', 'HomeController@registerCheck');
+
 Route::get('/logout', 'AdminController@logout');
 
 Route::group(array('before' => 'auth', 'after' => 'nocache'), function(){
@@ -43,3 +45,5 @@ Route::post('/password/remind', 'RemindersController@postRemind');
 
 Route::get('/password/reset/{token}', 'RemindersController@getReset');
 Route::post('/password/reset', 'RemindersController@postReset');
+
+Route::get('/plan/{id}', 'HomeController@selectPlan');

@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="{{ asset('assets/lib/lumen/css/bootstrap.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/css/default.css') }}">
+
+  @if(!empty($signup))
+  <link rel="stylesheet" href="{{ asset('assets/css/signup.css') }}">
+  @endif
+
 	<title>{{ $title }}</title>
 </head>
 <body>
@@ -37,5 +42,17 @@
 
 	<script src="{{ asset('assets/js/jquery.js') }}"></script>
 	<script src="{{ asset('assets/lib/lumen/js/bootstrap.js') }}"></script>
+
+  @if(!empty($stripe))
+  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  @endif
+
+  @if(!empty($handlebars))
+  <script src="{{ asset('assets/js/handlebars.js') }}"></script>
+  @endif
+
+  @if(!empty($signup))
+  <script src="{{ asset('assets/js/signup.js') }}"></script>
+  @endif
 </body>
 </html>

@@ -1,0 +1,35 @@
+#fldset-billinginfo, #fldset-review {
+   display: none;
+}
+
+#card_number {
+   background-image: url(../img/creditcards.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+}
+
+#security_code_container {
+   float: left;
+   margin-right: 20px;
+}
+
+#security_code {
+   background-image: url(../img/cvv.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   width: 120px;
+}
+
+#lbl-expirydate {
+   display: block;
+}
+
+#expiry_month {
+   width: 120px;
+   display: inline !important;
+}
+
+#expiry_year {
+   display: inline !important;
+   width: 80px;
+}
