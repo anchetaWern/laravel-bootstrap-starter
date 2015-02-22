@@ -125,6 +125,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Schickling\Backup\BackupServiceProvider',
         'Abodeo\LaravelStripe\LaravelStripeServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
 
 	),
 

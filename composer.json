@@ -8,7 +8,8 @@
 		"nesbot/carbon": "1.12.0",
         "schickling/backup": "dev-master",
         "abodeo/laravel-stripe": "dev-master",
-        "way/database": "dev-master"
+        "way/database": "dev-master",
+        "way/generators": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
