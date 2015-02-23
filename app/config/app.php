@@ -126,6 +126,8 @@ return array(
         'Schickling\Backup\BackupServiceProvider',
         'Abodeo\LaravelStripe\LaravelStripeServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
+        'Chumper\Datatable\DatatableServiceProvider',
+
 
 	),
 
@@ -194,7 +196,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Carbon'          => 'Carbon\Carbon',
-
+        'Datatable'       => 'Chumper\Datatable\Facades\DatatableFacade',
 	),
 
 );

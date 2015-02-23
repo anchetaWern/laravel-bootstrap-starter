@@ -9,7 +9,8 @@
         "schickling/backup": "dev-master",
         "abodeo/laravel-stripe": "dev-master",
         "way/database": "dev-master",
-        "way/generators": "~2.0"
+        "way/generators": "~2.0",
+        "chumper/datatable": "2.*"
 	},
 	"autoload": {
 		"classmap": [
