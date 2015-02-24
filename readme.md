@@ -72,3 +72,15 @@ php artisan serve --port=1111
 ```
 http://localhost:1111
 ```
+
+###TODO
+
+- upgrade to laravel 5
+- add social login
+- use the following packages:
+  - dwightwatson/validating
+  - barryvdh/laravel-dompdf
+  - Xethron/migrations-generator
+  - Intervention/image
+  - CodeSleeve/asset-pipeline
+  - mcamara/laravel-localization
