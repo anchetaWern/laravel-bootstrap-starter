@@ -10,7 +10,8 @@
         "abodeo/laravel-stripe": "dev-master",
         "way/database": "dev-master",
         "way/generators": "~2.0",
-        "chumper/datatable": "2.*"
+        "chumper/datatable": "2.*",
+        "artdarek/oauth-4-laravel": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

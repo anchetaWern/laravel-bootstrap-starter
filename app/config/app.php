@@ -1,3 +1,4 @@
+
 <?php
 
 return array(
@@ -127,6 +128,7 @@ return array(
         'Abodeo\LaravelStripe\LaravelStripeServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
         'Chumper\Datatable\DatatableServiceProvider',
+        'Artdarek\OAuth\OAuthServiceProvider',
 
 
 	),
@@ -197,6 +199,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
         'Carbon'          => 'Carbon\Carbon',
         'Datatable'       => 'Chumper\Datatable\Facades\DatatableFacade',
+        'OAuth' => 'Artdarek\OAuth\Facade\OAuth',
 	),
 
 );
